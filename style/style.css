@@ -6,7 +6,7 @@
     font-weight: 700;
     font-size: 26px;
     color: #2196F3;
-    line-height: 30.52px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: 26px;
     color: black;
-    line-height: 35.96px;
+    line-height: 1.38;
     letter-spacing: 0.03em;
 }
 
@@ -22,22 +22,15 @@
     font-family: Roboto;
 font-size: 14px;
 font-weight: 500;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: left;
 color: black;
 
 }
 
-#header-link {
-    font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
-color: #2196F3;
-
+.header-link:hover {
+    color: #2196F3;
 }
 
 a {
@@ -53,9 +46,11 @@ li {
     font-weight: 900;
     color: white;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
+
 }
 
 .order-button {
@@ -63,7 +58,7 @@ li {
     font-weight: 700;
     color: white;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     text-align: center;
 }
@@ -72,7 +67,7 @@ li {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: left;
     color: black;
@@ -82,7 +77,7 @@ li {
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color: #757575;
@@ -93,7 +88,7 @@ color: #757575;
     font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: 42px;
+line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
@@ -104,7 +99,7 @@ color: black;
     font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
-line-height: 42px;
+line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
@@ -114,8 +109,8 @@ color: black;
 .team-h4 {
     font-family: Roboto;
 font-size: 36px;
-font-weight: 700;
-line-height: 42px;
+font-weight: 500;
+line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
@@ -126,7 +121,7 @@ color: black;
     font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: 19px;
+line-height: 1.18;
 letter-spacing: 0.03em;
 text-align: center;
 color: gray;
@@ -137,7 +132,7 @@ color: gray;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color: white;
@@ -148,7 +143,7 @@ color: white;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 background: #FFFFFF99;
@@ -159,7 +154,7 @@ background: #FFFFFF99;
     font-family: Roboto;
 font-size: 14px;
 font-weight: 400;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
 color: white;
@@ -170,20 +165,55 @@ color: white;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: left;
     color: #757575;
 }
 
+.footer-web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196F3;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+}
+
+.footer-studio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+}
+
 
 /* portfolio */
+
+.adress-link {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #757575;
+}
+
+.adress-link:hover {
+    
+    color: #2196F3;
+}
 
 #us-button {
     font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 26px;
+line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: center;
 color: #2196F3;
@@ -194,7 +224,7 @@ color: #2196F3;
     font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 26px;
+line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
@@ -205,7 +235,7 @@ color: black;
     font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
-line-height: 26px;
+line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
@@ -216,9 +246,11 @@ color: black;
     font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 text-align: left;
 color: gray;
 
 }
+
+
