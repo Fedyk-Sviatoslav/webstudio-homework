@@ -22,17 +22,30 @@ body {
     letter-spacing: 0.03em;
 }
 
-.header-link {
+#header-link {
 font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: left;
 color: #757575;
+}
 
+.header-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;    
 }
 
 .header-link:hover {
+    color: #2196F3;
+}
+
+#header-link:hover {
     color: #2196F3;
 }
 
@@ -200,17 +213,19 @@ color: white;
 }
 
 .choose-button {
-font-size: 16px;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0.03em;
-text-align: center;
-color: #212121;
-
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    
 }
 
 .choose-button:hover {
-    color: #2196F3;
+    background-color: #2196F3;
+    color: #ffffff;
 }
 
 .people-header {
