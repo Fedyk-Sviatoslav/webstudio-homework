@@ -72,17 +72,22 @@ li {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
-
+ 
 }
 
 .order-button {
     font-weight: 700;
+    background-color: #2196F3;
     color: white;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
 }
+
+
 
 .decision-header {
     font-size: 14px;
@@ -254,5 +259,62 @@ text-align: left;
 color: gray;
 
 }
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    
+}
+
+.order-section {
+    padding-top: 200px;
+    padding-bottom: 280px;
+    background-color:  #2F303A;
+}
+
+.decision-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.us-section {
+    padding-bottom: 94px;
+}
+
+.team-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:  #2F303A;
+    ;
+}
+
+/* .decision-list {
+    display: flex;
+    justify-content: center;
+}
+
+.us-list {
+    display: flex;
+    justify-content: center;
+} */
+
+.us-img {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.people {
+    padding-top: 34px;
+    padding-bottom: 94px;
+}
+
+
+
 
 
