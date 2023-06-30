@@ -29,6 +29,28 @@ body {
     letter-spacing: 0.03em;
 }
 
+.header-nav {
+    display: flex;
+}
+
+ .header-header {
+    margin: 24px 93px 25px 0px;
+}
+
+.header-list {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 50px;
+}
+
+.header-adress {
+    display: flex;
+    margin: 32px 0px  32px 344px; 
+    gap: 50px;
+}  
+
+
 #header-link {
 font-size: 14px;
 font-weight: 500;
@@ -37,6 +59,7 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #757575;
 }
+
 
 .header-link {
     font-family: Roboto;
@@ -85,9 +108,8 @@ li {
     margin: 0 auto;
     display: block;
     margin-top: 30px;
+    padding: 10px 32px 10px 32px;
 }
-
-
 
 .decision-header {
     font-size: 14px;
@@ -96,6 +118,10 @@ li {
     letter-spacing: 0.03em;
     text-align: left;
     color: black;
+}
+
+.decision-list {
+    gap: 30px;
 }
 
 .decision-text {
@@ -118,6 +144,17 @@ color: black;
 
 }
 
+.us-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.us-img {
+    width: 370px;
+    height: 294px;
+}
+
 .team-h3 {
 font-size: 36px;
 font-weight: 700;
@@ -125,7 +162,7 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
-
+margin-bottom: 50px;
 }
 
 .team-h4 {
@@ -146,6 +183,23 @@ letter-spacing: 0.03em;
 text-align: center;
 color: gray;
 
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
+
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-item {
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border-radius:  2%
 }
 
 .footer-link {
@@ -232,7 +286,15 @@ color: white;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
-    
+    background-color: #F5F4FA;
+}
+
+.choose-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    padding: 6px 22px 6px 22px;
 }
 
 .choose-button:hover {
@@ -245,9 +307,21 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.6;
 letter-spacing: 0.03em;
-text-align: center;
+text-align: left;
 color: black;
 
+}
+
+.people-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.people-item {
+    padding-bottom: 110px;
+    background-color: #ffffff;
 }
 
 .people-text {
@@ -260,11 +334,10 @@ color: gray;
 
 }
 
-.header {
+/* .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    
-}
+}   */
 
 .order-section {
     padding-top: 200px;
@@ -294,20 +367,14 @@ color: gray;
     ;
 }
 
-/* .decision-list {
+.decision-list {
     display: flex;
     justify-content: center;
 }
 
-.us-list {
-    display: flex;
-    justify-content: center;
-} */
 
-.us-img {
-    margin-left: 30px;
-    margin-top: 50px;
-}
+
+
 
 .people {
     padding-top: 34px;
