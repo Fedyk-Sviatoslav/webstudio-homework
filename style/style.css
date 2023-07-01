@@ -122,6 +122,8 @@ li {
 
 .decision-list {
     gap: 30px;
+    display: flex;
+    align-items: baseline;
 }
 
 .decision-text {
