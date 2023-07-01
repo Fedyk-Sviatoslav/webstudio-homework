@@ -263,6 +263,8 @@ color: white;
     letter-spacing: 0.03em;
 }
 
+.footer-web
+
 
 /* portfolio */
 
@@ -313,7 +315,6 @@ line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: left;
 color: black;
-margin-left: 24px;
 margin-top: 24px;
 margin-bottom: 4px;
 }
@@ -322,12 +323,11 @@ margin-bottom: 4px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 94px;
     margin-top: 56px;
 }
 
 .people-item {
-    padding-bottom: 110px;
+    padding-bottom: 20px;
     background-color: #ffffff;
 }
 
@@ -338,8 +338,10 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 text-align: left;
 color: gray;
-margin-left: 24px;
+}
 
+.people-div {
+    padding-left: 24px;
 }
 
  .header {
@@ -380,12 +382,14 @@ margin-left: 24px;
 
 
 
-
-/* 
+ 
  .people-section {
-    padding-top: 34px;
     padding-bottom: 94px; 
-}  */
+} 
+
+{
+    margin-bottom: 20px;
+}
 
 
 
