@@ -34,19 +34,19 @@ body {
 }
 
  .header-header {
-    margin: 24px 93px 25px 0px;
+    margin: 24px 93px 25px 0px; 
 }
 
 .header-list {
     display: flex;
-    margin-top: 32px;
-    margin-bottom: 32px;
+     margin-top: 32px;
+    margin-bottom: 32px; 
     gap: 50px;
 }
 
 .header-adress {
     display: flex;
-    margin: 32px 0px  32px 344px; 
+    margin: 32px 0px  32px 344px;  
     gap: 50px;
 }  
 
@@ -310,6 +310,7 @@ line-height: 1.6;
 letter-spacing: 0.03em;
 text-align: left;
 color: black;
+margin-left: 24px;
 
 }
 
@@ -318,6 +319,7 @@ color: black;
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 94px;
+    margin-top: 56px;
 }
 
 .people-item {
@@ -332,13 +334,14 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 text-align: left;
 color: gray;
+margin-left: 24px;
 
 }
 
-/* .header {
+ /* .header {
     padding-top: 24px;
     padding-bottom: 25px;
-}   */
+}    */
 
 .order-section {
     padding-top: 200px;
@@ -376,11 +379,11 @@ color: gray;
 
 
 
-
-.people {
+/* 
+ .people-section {
     padding-top: 34px;
-    padding-bottom: 94px;
-}
+    padding-bottom: 94px; 
+}  */
 
 
 
