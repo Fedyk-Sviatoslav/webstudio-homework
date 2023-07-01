@@ -34,20 +34,20 @@ body {
 }
 
  .header-header {
-    margin: 24px 93px 25px 0px; 
+    margin: 0px 93px 0px 0px; 
 }
 
 .header-list {
     display: flex;
-     margin-top: 32px;
-    margin-bottom: 32px; 
     gap: 50px;
+    align-items: center;
 }
 
 .header-adress {
     display: flex;
-    margin: 32px 0px  32px 344px;  
+    margin-left: 344px;
     gap: 50px;
+    align-items: center;
 }  
 
 
@@ -174,7 +174,8 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: black;
-
+margin-top: 30px;
+margin-bottom: 10px;
 }
 
 .team-text {
@@ -289,6 +290,7 @@ color: white;
     text-align: center;
     color: #212121;
     background-color: #F5F4FA;
+    padding: 6px 22px 6px 22px;
 }
 
 .choose-list {
@@ -296,7 +298,6 @@ color: white;
     flex-direction: row;
     justify-content: center;
     gap: 8px;
-    padding: 6px 22px 6px 22px;
     margin-top: 94px;
 }
 
@@ -313,7 +314,8 @@ letter-spacing: 0.03em;
 text-align: left;
 color: black;
 margin-left: 24px;
-
+margin-top: 24px;
+margin-bottom: 4px;
 }
 
 .people-list {
@@ -340,10 +342,10 @@ margin-left: 24px;
 
 }
 
- /* .header {
+ .header {
     padding-top: 24px;
     padding-bottom: 25px;
-}    */
+}    
 
 .order-section {
     padding-top: 200px;
@@ -356,9 +358,7 @@ margin-left: 24px;
     padding-bottom: 94px;
 }
 
-.us-section {
-    padding-bottom: 94px;
-}
+
 
 .team-section {
     padding-top: 94px;
