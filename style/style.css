@@ -248,6 +248,10 @@ margin-top: 20px;
     color: #757575;
 }
 
+.footer-item {
+    margin-top: 9px;
+}
+
 .footer-web {
     font-family: Raleway;
     font-weight: 700;
@@ -386,7 +390,9 @@ color: gray;
     justify-content: center;
 }
 
-
+.us-section {
+    padding-bottom: 94px;
+}
 
  
  .people-section {
