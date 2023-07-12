@@ -310,7 +310,10 @@ margin-top: 20px;
     flex-direction: row;
     justify-content: center;
     gap: 8px;
-    margin-top: 94px;
+}
+
+.choose-section {
+    padding-top: 50px;
 }
 
 .choose-button:hover {
@@ -333,7 +336,6 @@ margin-bottom: 4px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 56px;
 }
 
 .people-item {
@@ -379,24 +381,18 @@ color: gray;
 }
 
 .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+ padding: 60px 0px 60px 214px;
     background-color:  #2F303A;
-    ;
 }
 
 .decision-list {
     display: flex;
     justify-content: center;
 }
-
-.us-section {
-    padding-bottom: 94px;
-}
-
  
  .people-section {
     padding-bottom: 94px; 
+    padding-top: 56px;
 } 
 
 
