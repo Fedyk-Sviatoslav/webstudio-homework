@@ -138,7 +138,7 @@ li {
     display: block;
     background-repeat: repeat-x;
     margin-bottom: 30px;
-    background-image: url(/img/antenna.png);
+    background-image: url();
     background-position: center ;
     background-repeat: no-repeat;
 }
@@ -151,7 +151,7 @@ li {
     display: block;
     background-repeat: repeat-x;
     margin-bottom: 30px;
-    background-image: url(/img/clock.png);
+    background-image: url();
     background-position: center ;
     background-repeat: no-repeat;
 }
@@ -164,7 +164,7 @@ li {
     display: block;
     background-repeat: repeat-x;
     margin-bottom: 30px;
-    background-image: url(/img/diagram.png);
+    background-image: url();
     background-position: center ;
     background-repeat: no-repeat;
 }
@@ -177,7 +177,7 @@ li {
     display: block;
     background-repeat: repeat-x;
     margin-bottom: 30px;
-    background-image: url(/img/astronaut.png);
+    background-image: url();
     background-position: center ;
     background-repeat: no-repeat;
 }
