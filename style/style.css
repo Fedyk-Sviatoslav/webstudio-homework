@@ -263,6 +263,7 @@ color: gray;
     padding-bottom: 30px;
     background-color: #ffffff;
     border-radius:  2%;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .footer-link {
@@ -376,6 +377,7 @@ margin-top: 20px;
 .choose-button:hover {
     background-color: #2196F3;
     color: #ffffff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .people-header {
@@ -392,12 +394,20 @@ margin-bottom: 4px;
 .people-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 25px;
 }
 
 .people-item {
     padding-bottom: 20px;
     background-color: #ffffff;
+    border: 1px solid #EEE;
+}
+
+.people-item:first-child {
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #EEE;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .people-text {
