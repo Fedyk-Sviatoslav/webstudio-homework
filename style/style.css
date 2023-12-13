@@ -47,13 +47,54 @@ body {
     align-items: center;
 }
 
+.header-email {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+
+.header-post {
+    width: 12px;
+    height: 16px;
+    fill: #757575;
+}
+
+.header-post:hover {
+    width: 12px;
+    height: 16px;
+    fill: #2196F3;
+}
+
+.header-number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-smartphone {
+    width: 10px;
+    height: 16px;
+    fill: #757575;
+}
+
+.header-smartphone:hover {
+    width: 10px;
+    height: 16px;
+    fill: #2196F3;
+}
+
+.header-smartphone:hover {
+    width: 10px;
+    height: 16px;
+}
+
+
 .header-adress {
     display: flex;
-    margin-left: 344px;
+    margin-left: 300px;
     gap: 50px;
     align-items: center;
 }  
-
 
 #header-link {
 font-size: 14px;
@@ -269,6 +310,77 @@ color: gray;
     background-color: #ffffff;
     border-radius:  2%;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team-link {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.team-link:hover {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.team-instagram {
+    width: 20px;
+height: 20px;
+fill: #AFB1B8;
+}
+
+.team-instagram:hover {
+    width: 20px;
+height: 20px;
+fill: white;
+}
+
+.team-twitter {
+    width: 20px;
+height: 20px;
+fill: #AFB1B8;
+}
+
+.team-twitter:hover {
+    width: 20px;
+height: 20px;
+fill: white;
+}
+
+.team-facebook {
+    width: 20px;
+height: 20px;
+fill: #AFB1B8;
+}
+
+.team-facebook:hover {
+    width: 20px;
+height: 20px;
+fill: white;
+}
+
+.team-linkedin {
+    width: 20px;
+height: 20px;
+fill: #AFB1B8;
+}
+
+.team-linkedin:hover {
+    width: 20px;
+height: 20px;
+fill: white;
 }
 
 .footer-link {
