@@ -53,6 +53,10 @@ body {
      gap: 10px;
 }
 
+.header-email:hover #header-link, .header-email:hover .header-post {
+    fill: #2196F3;
+}
+
 .header-post {
     width: 12px;
     height: 16px;
@@ -69,6 +73,10 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.header-number:hover .header-link, .header-number:hover .header-smartphone {
+    fill: #2196F3;
 }
 
 .header-smartphone {
@@ -330,7 +338,6 @@ color: gray;
     margin-top: 16px;
     display: flex;
     align-items: center;
-    background-color: #2196F3;
     padding: 12px;
     border-radius: 50px;
 }
@@ -341,22 +348,10 @@ height: 20px;
 fill: #AFB1B8;
 }
 
-.team-instagram:hover {
-    width: 20px;
-height: 20px;
-fill: white;
-}
-
 .team-twitter {
     width: 20px;
 height: 20px;
 fill: #AFB1B8;
-}
-
-.team-twitter:hover {
-    width: 20px;
-height: 20px;
-fill: white;
 }
 
 .team-facebook {
@@ -365,22 +360,87 @@ height: 20px;
 fill: #AFB1B8;
 }
 
-.team-facebook:hover {
-    width: 20px;
-height: 20px;
-fill: white;
-}
-
 .team-linkedin {
     width: 20px;
 height: 20px;
 fill: #AFB1B8;
 }
 
-.team-linkedin:hover {
-    width: 20px;
-height: 20px;
-fill: white;
+.team-icon:hover .team-link, .team-icon:hover .team-instagram, .team-icon:hover .team-twitter,
+ .team-icon:hover .team-facebook, .team-icon:hover .team-linkedin {
+    fill: white;
+    background-color: #2196F3;
+}
+
+.clients-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-title {
+    display: flex;
+    justify-content: center;
+    color: #212121;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 1.08px;
+}
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.clients-item {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.clients-item > svg {
+    width: 106px;
+height: 60px;
+fill: #AFB1B8;
+}
+
+ .clients-item:hover {
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+} 
+
+
+.clients-item:hover, .clients-item:hover .clients-ya-co {
+    fill: #2196F3;
+} 
+
+.clients-item:hover, .clients-item:hover .clients-tagline-company {
+    fill: #2196F3;
+} 
+
+.clients-item:hover, .clients-item:hover .clients-company {
+    fill: #2196F3;
+} 
+
+.clients-item:hover, .clients-item:hover .clients-foster-peters {
+    fill: #2196F3;
+} 
+
+.clients-item:hover, .clients-item:hover .clients-brand {
+    fill: #2196F3;
+} 
+
+.clients-item:hover, .clients-item:hover .clients-tag-line {
+    fill: #2196F3;
+} 
+
+.footer-flex {
+    display: flex;
+    gap: 70px;
 }
 
 .footer-link {
@@ -446,7 +506,80 @@ margin-top: 20px;
     letter-spacing: 0.03em;
 }
 
-.footer-web
+
+
+.join {
+    display: flex;
+    flex-direction: column;
+    padding-top: 12px;
+}
+
+.join-title {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.42;
+letter-spacing: 0.42px;
+}
+
+.join-icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.join-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.join-link {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.join-link:hover {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.join-instagram {
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+.join-twitter {
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+.join-facebook {
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+.join-linkedin {
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+.join-icon:hover .join-link, .join-icon:hover .join-instagram, .join-icon:hover .join-twitter,
+ .join-icon:hover .join-facebook, .join-icon:hover .join-linkedin {
+    fill: white;
+    background-color: #2196F3;
+}
 
 
 /* portfolio */
