@@ -249,10 +249,13 @@ color: black;
     margin-top: 50px;
 }
 
+.us-item {
+    position: relative;
+}
+
 .us-img {
     width: 370px;
     height: 294px;
-    position: relative;
 }
 
 .us-details {
@@ -275,22 +278,19 @@ background-color: rgba(47, 48, 58, 0.80);
 .us-desktop {
     padding: 27px 107px 27px 107px;
     position: absolute;
-    top: 196%;
-    left: 11;
+    top: 75%;
 }
 
 .us-mobile {
     padding: 27px 113px 27px;
     position: absolute;
-    top: 196%;
-    left: 11;
+    top: 75%;
 }
 
 .us-designer {
     padding: 27px 95px 27px 95px;
     position: absolute;
-    top: 196%;
-    left: 11;
+    top: 75%;
 }
 
 .team-h3 {
