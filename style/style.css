@@ -755,6 +755,207 @@ color: gray;
     padding-top: 56px;
 } 
 
+.backdrop {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.20);
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+.modal {
+    position: fixed;
+    width: 528px;
+    height: 581px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    top: 13%;
+    left: 34%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 40px 40px;
+} 
+.modal-svg {
+    position: absolute;
+    fill: black;
+    width: 18px;
+    height: 18px;
+    top: 12px;
+    left: 499px;
+    border: rgba(255, 255, 255, 0.10);
+}
+
+.modal-exit {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 8px;
+    left: 496px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #fff;
+    outline: solid 2px rgb(175, 177, 184, 0.5);
+    z-index: 2;
+    opacity: 0;
+}
+
+.modal-title {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.15;
+letter-spacing: 0.6px;
+}
+
+.modal-name {
+    color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.12px;
+margin-top: 12px;
+margin-bottom: 4px;
+}
+
+.modal-input {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    outline: none;
+}
+
+.modal-input:hover {
+   outline: none;
+   z-index: 2;
+}
+
+.modal-human {
+    position: absolute;
+    top: 104px;
+    right: 460px;
+    width: 20px;
+    height: 20px;
+    fill: #212121;
+}
+
+.modal-text {
+    color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.12px;
+margin-top: 10px;
+margin-bottom: 4px;
+}
+
+.modal-phone {
+    position: absolute;
+    top: 174px;
+    right: 460px;
+    width: 20px;
+    height: 20px;
+    fill: #212121;
+}
+
+.modal-email {
+    position: absolute;
+    top: 241px;
+    right: 460px;
+    width: 20px;
+    height: 20px;
+    fill: #212121;
+}
+
+.modal-comment {
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    outline: none;
+    padding-top: 12px;
+    padding-left: 16px;
+    color: rgba(117, 117, 117, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.12px;
+}
+
+.modal-comment::placeholder {
+    position: relative;
+    bottom: 46px;
+}
+
+.modal-agreement {
+    margin-top: 20px;
+    display: flex;
+}
+
+.agreement-submit {
+    width: 16px;
+   height: 16px;
+   border-radius: 15%;
+   border-color:  black;
+   background-color: #fff;
+   margin-top: 4px;
+   margin-right: 8px;
+}
+
+.agreement-text {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71; 
+letter-spacing: 0.42px;
+margin-right: 5px;
+}
+
+.agreement-contract {
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+.modal-button {
+width: 200px;
+height: 50px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.88; 
+letter-spacing: 0.96px;
+border: none;
+align-self: center;
+margin-top: 30px;
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
 
 
 

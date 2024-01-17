@@ -44,7 +44,7 @@
         <div class="container">
           <h2 class="order-header">Ефективні рішення для <br>вашого бізнесу</h2>
           <div class="order-div">
-            <button type="button" class="order-button">Замовити послугу</button>
+            <button type="button" data-modal-open class="order-button">Замовити послугу</button>
           </div>
         </div>
       </section>
@@ -291,5 +291,32 @@
           </div>
         </div>
     </footer>
+    <div data-modal class="backdrop is hidden">
+      <div class="modal">
+        <button data-modal-close type="button" class="modal-exit"></button>
+        <svg class="modal-svg">
+          <use href="./images/icons.svg#exit-icon"></use>
+        </svg>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <p class="modal-name">Ім'я</p>
+        <input type="text" class="modal-input">
+        <svg class="modal-human"><use href="./images/icons.svg#human-icon"></use></svg>
+          <p class="modal-text">Телефон</p>
+          <input type="text" class="modal-input">
+          <svg class="modal-phone"><use href="./images/icons.svg#phone-icon"></use></svg>
+          <p class="modal-text">Пошта</p>
+          <input type="text" class="modal-input">
+          <svg class="modal-email"><use href="./images/icons.svg#email-icon"></use></svg>
+          <p class="modal-text">Коментар</p>
+          <input type="text" class="modal-comment" placeholder="Введіть текст">
+          <div class="modal-agreement">
+            <button  type="submit" class="agreement-submit"></button>
+            <p class="agreement-text">Погоджуюся з розсилкою та приймаю</p>
+            <a href="#" class="agreement-contract">Умови договору</a>
+          </div>
+          <button type="button" class="modal-button">Відправити</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
