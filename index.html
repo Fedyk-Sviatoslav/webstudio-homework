@@ -288,33 +288,54 @@
                 </li>
               </ul>
             </div>
+            <div class="footer-subscribe">
+              <form class="subscribe-form">
+                <label class="subscribe-label">
+                  <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+                  <input type="text" class="subscribe-input" placeholder="E-mail"  required>
+                  <button class="subscribe-button">Підписатися</button>
+                  <svg class="footer-plane-icon"><use href="./images/icons.svg#paper-plane-icon"></use></svg>
+                </label>
+              </form>
+            </div>
           </div>
         </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <button data-modal-close type="button" class="modal-exit"></button>
-        <svg class="modal-svg">
-          <use href="./images/icons.svg#exit-icon"></use>
-        </svg>
-        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-        <p class="modal-name">Ім'я</p>
-        <input type="text" class="modal-input">
-        <svg class="modal-human"><use href="./images/icons.svg#human-icon"></use></svg>
-          <p class="modal-text">Телефон</p>
-          <input type="text" class="modal-input">
-          <svg class="modal-phone"><use href="./images/icons.svg#phone-icon"></use></svg>
-          <p class="modal-text">Пошта</p>
-          <input type="text" class="modal-input">
-          <svg class="modal-email"><use href="./images/icons.svg#email-icon"></use></svg>
-          <p class="modal-text">Коментар</p>
-          <input type="text" class="modal-comment" placeholder="Введіть текст">
-          <div class="modal-agreement">
-            <button  type="submit" class="agreement-submit"></button>
-            <p class="agreement-text">Погоджуюся з розсилкою та приймаю</p>
-            <a href="#" class="agreement-contract">Умови договору</a>
-          </div>
-          <button type="button" class="modal-button">Відправити</button>
+        <button data-modal-close type="button" class="modal-exit">
+       <svg class="modal-svg">
+        <use href="./images/icons.svg#exit-icon"></use>
+      </svg>
+     </button> 
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <form action="" class="subscription-form">
+          <label for="" class="subscription-label">
+            <p class="modal-name">Ім'я</p>
+              <input type="text" class="modal-input">
+              <svg class="modal-human"><use href="./images/icons.svg#human-icon"></use></svg>
+          </label>
+              <label for="" class="subscription-label">
+                <p class="modal-text">Телефон</p>
+                <input type="text" class="modal-input">
+                <svg class="modal-phone"><use href="./images/icons.svg#phone-icon"></use></svg>
+              </label>
+              <label for="" class="subscription-label">
+                <p class="modal-text">Пошта</p>
+                <input type="text" class="modal-input">
+                <svg class="modal-email"><use href="./images/icons.svg#email-icon"></use></svg>
+              </label>
+              <label for="" class="subscription-label">
+                  <p class="modal-text">Коментар</p>
+                  <input type="text" class="modal-comment" placeholder="Введіть текст">
+                <div class="modal-agreement">
+                  <input type="checkbox" class="agreement-submit">
+                  <p class="agreement-text">Погоджуюся з розсилкою та приймаю</p>
+                  <a href="#" class="agreement-contract">Умови договору</a>
+                </div> 
+               </label>
+              <button type="button" class="modal-button">Відправити</button>
+      </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
