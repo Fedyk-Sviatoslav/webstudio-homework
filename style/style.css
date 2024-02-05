@@ -29,11 +29,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}     */
-
 .header {
     box-shadow:  0 5px 5px -5px gray;
 }
