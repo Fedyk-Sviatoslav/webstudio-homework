@@ -76,43 +76,46 @@ body {
     width: 47px;
     height: 4px;
     border-radius: 2px;
-    transform: translateX(-100%);
+    transform: scale(0, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .header-studio-overlay:hover  .header-studio-decoration {
-    transform: translateX(-1%);
+    transform: scale(1);
 }
 
 .header-portfolio-decoration {
     position: absolute;
     top: 76px;
-    right: 234px;
+    right: 112px;
     content: "";
     background-color: #2196F3;
     width: 75px;
     height: 4px;
     border-radius: 2px;
-    transform: translateY(100%);
+    transform: scale(0, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .header-portfolio-overlay:hover  .header-portfolio-decoration {
-    transform: translateX(161%)
+    transform: scale(1);
 }
 
 .header-contacts-decoration {
     position: absolute;
     top: 76px;
-    right: 234px;
+    right: -1px;
     content: "";
     background-color: #2196F3;
     width: 66px;
     height: 4px;
     border-radius: 2px;
-    transform: translateY(100%);
+    transform: scale(0,1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .header-contacts-overlay:hover  .header-contacts-decoration {
-    transform: translateX(355%)
+    transform: scale(1);
 }
 
 .header-link:hover .header-contact {
@@ -245,9 +248,8 @@ li {
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
- 
-}
 
+}
 .order-button {
     font-weight: 700;
     background-color: #2196F3;
