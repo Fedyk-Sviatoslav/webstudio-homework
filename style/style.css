@@ -842,6 +842,13 @@ margin-bottom: 4px;
     gap: 25px;
 }
 
+.people-overlay {
+    width: 369px;
+    height: 294px;
+    overflow: hidden;
+    position: relative;
+}
+
 .people-item {
     position: relative;
     padding-bottom: 20px;
@@ -849,6 +856,7 @@ margin-bottom: 4px;
     border: 1px solid #EEE;
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
 
 .people-item:hover {
@@ -864,8 +872,8 @@ margin-bottom: 4px;
     width: 372px;
     height: 294px;
     background-color: rgba(33, 150, 243, 0.90);
-    transform: translateX(-101%);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translatey(100%);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms linear;
     opacity: 0;
 }
 
@@ -878,13 +886,19 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.56;
 letter-spacing: 0.54px;
+transform: translatey(0%);
 } 
 
 .people-item:hover .people-resource {
-transform: translateX(0%);
+transform: translatey(0%);
 background-color: rgba(33, 150, 243, 0.90);
 opacity: 1;
 }
+
+.people-item:hover .people-about {
+    transform: translatey(0%);
+
+    }
 
 .people-list > a:focus {
     background-color: #ffffff;
@@ -948,7 +962,15 @@ color: gray;
     bottom: 0%;
     right: 0%;
     left: 0%;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visbility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+ .is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
 
 .modal {
     position: fixed;
@@ -962,7 +984,14 @@ color: gray;
     display: flex;
     flex-direction: column;
     padding: 40px 40px 40px 40px;
+    transform: translateX(0) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
+
+.is-hidden .modal {
+    transform: translateX(70%) scale(0.5);
+}
+
  .modal-svg {
     position: relative;
     top: 3px;
@@ -970,7 +999,12 @@ color: gray;
     fill: black;
     width: 18px;
     height: 18px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
+
+.modal-svg:hover {
+    transform: scale(1.2);
+}
 
 .modal-exit {
     position: absolute;
@@ -982,6 +1016,11 @@ color: gray;
     border-style: none;
     background-color: #fff;
     outline: solid 2px rgba(175, 177, 184, 0.5);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-exit:hover {
+    transform: scale(1.2);
 }
 
 .modal-title {
@@ -1013,6 +1052,15 @@ margin-bottom: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     outline: none;
     padding-left: 40px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:hover {
+    transform: scale(1.01);
+}
+
+.modal-human, .modal-phone, .modal-email {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription-label:hover .modal-input {
@@ -1021,14 +1069,17 @@ margin-bottom: 4px;
 
 .subscription-label:hover .modal-human {
     fill: #2196F3;
+    transform: scale(1.1);
 }
 
 .subscription-label:hover .modal-phone {
     fill: #2196F3;
+    transform: scale(1.1);
 }
 
 .subscription-label:hover .modal-email {
     fill: #2196F3;
+    transform: scale(1.1);
 }
  
 .modal-human {
@@ -1050,6 +1101,7 @@ line-height: 1.17;
 letter-spacing: 0.12px;
 margin-top: 10px;
 margin-bottom: 4px;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-phone {
@@ -1059,6 +1111,7 @@ margin-bottom: 4px;
     width: 20px;
     height: 20px;
     fill: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-email {
@@ -1068,6 +1121,7 @@ margin-bottom: 4px;
     width: 20px;
     height: 20px;
     fill: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment {
@@ -1085,8 +1139,12 @@ margin-bottom: 4px;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.12px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-comment:hover {
+  transform: scale(1.015);
+}
 
 .modal-agreement {
     margin-top: 20px;
@@ -1146,14 +1204,12 @@ letter-spacing: 0.96px;
 border: none;
 align-self: center;
 margin-top: 30px;
-
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
-    opacity: 0;
-    pointer-events: none;
+.modal-button:hover {
+    transform: scale(1.1);
 }
-
 
 
 
