@@ -1,0 +1,219 @@
+.web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196F3;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.studio {font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+}
+
+.header {
+    box-shadow:  0 5px 5px -5px gray;
+}
+
+.header-nav {
+    display: flex;
+}
+
+ .header-header {
+    margin: 0px 93px 0px 0px; 
+    padding-top: 20px;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    height: 80px;
+    overflow: hidden;
+}
+
+.header-studio, .header-portfolio, .header-contacts {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-studio:hover, .header-portfolio:hover, .header-contacts:hover {
+        color: #2196F3;
+    }
+
+
+ .header-studio-decoration {
+    position: absolute;
+    top: 76px;
+    right: 234px;
+    content: "";
+    background-color: #2196F3;
+    width: 47px;
+    height: 4px;
+    border-radius: 2px;
+    transform: scale(0, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.header-studio-overlay:hover  .header-studio-decoration {
+    transform: scale(1);
+}
+
+.header-portfolio-decoration {
+    position: absolute;
+    top: 76px;
+    right: 112px;
+    content: "";
+    background-color: #2196F3;
+    width: 75px;
+    height: 4px;
+    border-radius: 2px;
+    transform: scale(0, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.header-portfolio-overlay:hover  .header-portfolio-decoration {
+    transform: scale(1);
+}
+
+.header-contacts-decoration {
+    position: absolute;
+    top: 76px;
+    right: -1px;
+    content: "";
+    background-color: #2196F3;
+    width: 66px;
+    height: 4px;
+    border-radius: 2px;
+    transform: scale(0,1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.header-contacts-overlay:hover  .header-contacts-decoration {
+    transform: scale(1);
+}
+
+.header-link:hover .header-contact {
+    color: #2196F3;
+}
+
+.header-link:focus .header-contact {
+    color: #2196F3;
+}
+
+.header-link:focus {
+    outline: none;
+}
+
+.header-email:hover .header-post {
+    fill: #2196F3;
+}
+
+.header-email:focus .header-post {
+    fill: #2196F3;
+    outline: none;
+}
+
+.header-number:hover .header-smartphone {
+    fill: #2196F3;
+}
+
+.header-number:focus .header-smartphone {
+    fill: #2196F3;
+    outline: none;
+}
+
+ .header-smartphone {
+    width: 10px;
+    height: 16px;
+    fill: #757575;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+
+.header-smartphone:hover {
+    fill: #2196F3;
+} 
+
+.header-post {
+width: 16px;
+height: 12px;
+fill: #757575;
+transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-post:hover {
+    fill: #2196F3;
+} 
+
+.header-adress {
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+    align-items: center;
+}  
+
+.header-link {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #757575;
+display: flex;
+align-items: center;
+gap: 10px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-email {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-number {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+
+.header-email:hover {
+    color: #2196F3;
+}
+
+.header-email:focus {
+    color: #2196F3;
+}
+
+.header-number:hover {
+    color: #2196F3;
+}
+
+.header-number:focus {
+    color: #2196F3;
+}

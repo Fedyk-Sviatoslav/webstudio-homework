@@ -1,0 +1,141 @@
+.decision-section {
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: padding-top 650ms ease-out, padding-bottom 650ms ease-out;
+}
+
+.decision-section:hover {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.decision-header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 650ms ease-out;
+}
+
+.decision-section:hover .decision-header {
+    opacity: 1;
+}
+
+.decision-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+    opacity: 0;
+    transition: opacity 650ms ease-out;
+}
+
+.decision-section:hover .decision-text {
+    opacity: 1;
+}
+
+.decision-list {
+    display: flex;
+    justify-content: center;
+}
+
+.decision-list {
+    gap: 30px;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.decision-anthen::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: block;
+    background-repeat: repeat-x;
+    margin-bottom: 30px;
+    background-image: url(../images/antenna.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 500ms ease-out , opacity 500ms linear;
+}
+
+.decision-section:hover .decision-anthen::before {
+   transform: translateX(0);
+   opacity: 1;
+}
+
+
+.decision-clock::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: block;
+    background-repeat: repeat-x;
+    margin-bottom: 30px;
+    background-image: url(../images/clock.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    transform: translateX(-200%);
+    opacity: 0;
+    transition: transform 600ms ease-out , opacity 600ms linear;
+    z-index: -1;
+}
+
+.decision-section:hover .decision-clock::before {
+    transform: translateX(0);
+    opacity: 1;
+ }
+
+.decision-rating::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: block;
+    background-repeat: repeat-x;
+    margin-bottom: 30px;
+    background-image: url(../images/diagram.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    transform: translateX(-300%);
+    opacity: 0;
+    transition: transform 700ms ease-out , opacity 700ms linear;
+    z-index: -2;
+}
+
+.decision-section:hover .decision-rating::before {
+    transform: translateX(0);
+    opacity: 1;
+ }
+
+.decision-astronaut::before {
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: block;
+    background-repeat: repeat-x;
+    margin-bottom: 30px;
+    background-image: url(../images/astronaut.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    transform: translateX(-400%);
+    opacity: 0;
+    transition: transform 800ms ease-out , opacity 800ms linear;
+    z-index: -3;
+}
+
+.decision-section:hover .decision-astronaut::before {
+    transform: translateX(0);
+    opacity: 1;
+ }

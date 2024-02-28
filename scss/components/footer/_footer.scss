@@ -1,0 +1,91 @@
+.footer {
+    position: relative;
+ padding: 60px 0px 60px 0px;
+    background-color:  #2F303A;
+}
+
+.footer-flex {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-link {
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-align: left;
+color: white;
+
+}
+
+.footer-link2 {
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-align: left;
+background: #FFFFFF99;
+
+}
+
+#footer-link {
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-align: left;
+color: white;
+display: block;
+margin-top: 20px;
+}
+
+.footer-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}
+
+.footer-item {
+    margin-top: 9px;
+}
+
+.footer-web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196F3;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+}
+
+.footer-studio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+}
+
+.footer-subscribe {
+    display: flex;
+}
+
+.footer-subscribe {
+    padding-top: 12px;  
+}
+
+.footer-plane-icon {
+    position: absolute;
+    top: 123px;
+    right: 246px;
+    width: 24px;
+height: 24px;
+fill: white;
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
