@@ -986,7 +986,7 @@ padding: 10px 62px 10px 28px;
 
 .choose-button {
     animation-name: navigation-appearing;
-    animation-duration: 900ms;
+    animation-duration: 2000ms;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
