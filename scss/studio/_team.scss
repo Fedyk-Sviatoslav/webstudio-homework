@@ -4,7 +4,7 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
-    color: black;
+    color: $title-color;
     margin-bottom: 50px;
     opacity: 0;
     transition: opacity 300ms ease-out;
@@ -37,7 +37,7 @@
     .team-section {
         padding-top: 94px;
         padding-bottom: 94px;
-        background-color: #F5F4FA;
+        background-color: $team-background;
     }
     
     .team-h4 {
@@ -46,7 +46,7 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
-    color: black;
+    color: $title-color;
     margin-top: 30px;
     margin-bottom: 10px;
     }
@@ -74,7 +74,7 @@
     
     .team-item {
         padding-bottom: 30px;
-        background-color: #ffffff;
+        background-color: white;
         border-radius:  2%;
         box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -125,11 +125,11 @@
     
     .team-link:hover {
         transform: scale(1.1);
-        background-color: #2196F3;
+        background-color: $accent-color;
     }
     
     .team-link:focus {
-        background-color: #2196F3;
+        background-color: $accent-color;
         outline: none;
     }
     

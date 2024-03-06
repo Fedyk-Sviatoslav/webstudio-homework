@@ -7,7 +7,7 @@
     line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: $title-color;
     background-color: #F5F4FA;
     padding: 6px 22px 6px 22px;
     border: none;
@@ -23,20 +23,20 @@
     0% {
         opacity: 0;
         transform: translateY(-100%);
-        background-color: white;
-        color: #2196F3;
+        background-color: $text-color;
+        color: $accent-color;
     }
 
     25% {
-        background-color: white;
-        color: #2196F3;
+        background-color: $text-color;
+        color: $accent-color;
     }
 
     50% {
         opacity: 1;
         transform: translateY(0);
-        background-color: white;
-        color: #2196F3;
+        background-color: $text-color;
+        color: $accent-color;
     }
 
     100% {
@@ -58,14 +58,14 @@
 }
 
 .choose-button:hover {
-    background-color: #2196F3;
-    color: #ffffff;
+    background-color: $accent-color;
+    color: $text-color;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .choose-button:focus{
-    background-color: #2196F3;
-    color: #ffffff;
+    background-color: $accent-color;
+    color: $text-color;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     outline: none;
 }

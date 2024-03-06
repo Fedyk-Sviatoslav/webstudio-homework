@@ -8,7 +8,7 @@ font-weight: 700;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
-color: black;
+color: $title-color;
 
 }
 
@@ -34,7 +34,7 @@ color: black;
 }
 
 .us-desktop, .us-mobile, .us-designer {
-    color: #FFF;
+    color: white;
 text-align: center;
 font-family: Roboto;
 font-size: 14px;

@@ -34,7 +34,7 @@
     animation-name: button-appearing;
     animation-duration: 1400ms;
     font-weight: 700;
-    background-color: #2196F3;
+    background-color: $accent-color;
     color: white;
     font-size: 16px;
     line-height: 1.87;
@@ -62,5 +62,5 @@
 .order-button:hover {
     transform: scale(1.1);
     background-color: white;
-    color: #2196F3;
+    color: $accent-color;
 }

@@ -41,7 +41,7 @@ letter-spacing: 0.42px;
 }
 
 .join-link:hover {
-    background-color: #2196F3;
+    background-color: $accent-color;
     transform: scale(1.1);
 }
 
@@ -52,11 +52,11 @@ fill: #FFFFFF;
 }
 
 .join-item:hover .join-link {
-    background-color: #2196F3;
+    background-color: $accent-color;
 }
 
 .join-link:focus {
     fill: white;
-    background-color: #2196F3;
+    background-color: $accent-color;
     outline: none;
 }
