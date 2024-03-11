@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*виніс*/
+/*виніс*/
+/*не виніс*/
+/*не виніс*/
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -55,7 +60,7 @@ li {
 }
 
 .header {
-  box-shadow: 0 5px 5px -5px gray;
+  box-shadow: 0 5px 5px -5px #757575;
 }
 
 .header-nav {
@@ -265,7 +270,7 @@ li {
   animation-duration: 1400ms;
   animation-timing-function: ease-out;
   font-weight: 900;
-  color: white;
+  color: #FFF;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -289,7 +294,7 @@ li {
   animation-duration: 1400ms;
   font-weight: 700;
   background-color: #2196F3;
-  color: white;
+  color: #FFF;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -313,7 +318,7 @@ li {
 }
 .order-button:hover {
   transform: scale(1.1);
-  background-color: white;
+  background-color: #FFF;
   color: #2196F3;
 }
 
@@ -492,7 +497,7 @@ li {
 }
 
 .us-desktop, .us-mobile, .us-designer {
-  color: white;
+  color: #FFF;
   text-align: center;
   font-family: Roboto;
   font-size: 14px;
@@ -575,7 +580,7 @@ li {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  color: gray;
+  color: #757575;
 }
 
 .team-img {
@@ -590,7 +595,7 @@ li {
 
 .team-item {
   padding-bottom: 30px;
-  background-color: white;
+  background-color: #FFF;
   border-radius: 2%;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -650,42 +655,42 @@ li {
 }
 
 .team-link:hover .team-instagram {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:focus .team-instagram {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:hover .team-twitter {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:focus .team-twitter {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:hover .team-facebook {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:focus .team-facebook {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:hover .team-linkedin {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
 .team-link:focus .team-linkedin {
-  fill: white;
+  fill: #FFF;
   transform: scale(1.1);
 }
 
@@ -807,7 +812,7 @@ li {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
-  color: white;
+  color: #FFF;
 }
 
 .footer-link2 {
@@ -816,7 +821,7 @@ li {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
-  background: rgba(255, 255, 255, 0.6);
+  background: #757575;
 }
 
 #footer-link {
@@ -825,7 +830,7 @@ li {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
-  color: white;
+  color: #FFF;
   display: block;
   margin-top: 20px;
 }
@@ -856,7 +861,7 @@ li {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  color: #ffffff;
+  color: #FFF;
   line-height: 1.38;
   letter-spacing: 0.03em;
 }
@@ -875,7 +880,7 @@ li {
   right: 246px;
   width: 24px;
   height: 24px;
-  fill: white;
+  fill: #FFF;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -928,7 +933,7 @@ li {
 .join-icon {
   width: 20px;
   height: 20px;
-  fill: #FFFFFF;
+  fill: #FFF;
 }
 
 .join-item:hover .join-link {
@@ -936,7 +941,7 @@ li {
 }
 
 .join-link:focus {
-  fill: white;
+  fill: #FFF;
   background-color: #2196F3;
   outline: none;
 }
@@ -1029,7 +1034,7 @@ li {
   position: fixed;
   width: 528px;
   height: 581px;
-  background-color: #fff;
+  background-color: #FFF;
   border-radius: 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   top: 13%;
@@ -1067,7 +1072,7 @@ li {
   left: 495.5px;
   border-radius: 50%;
   border-style: none;
-  background-color: #fff;
+  background-color: #FFF;
   outline: solid 2px rgba(175, 177, 184, 0.5);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1214,7 +1219,7 @@ li {
   height: 16px;
   border-radius: 15%;
   border: none;
-  background-color: #fff;
+  background-color: #FFF;
   margin-top: 4px;
   margin-right: 8px;
 }

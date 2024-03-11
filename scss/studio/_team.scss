@@ -57,7 +57,7 @@
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    color: gray;
+    color: $text-color;
     
     }
     
@@ -74,7 +74,7 @@
     
     .team-item {
         padding-bottom: 30px;
-        background-color: white;
+        background-color: $background-color;
         border-radius:  2%;
         box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -134,69 +134,69 @@
     }
     
     .team-link:hover .team-instagram {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:focus .team-instagram {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:hover .team-twitter {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:focus .team-twitter {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:hover .team-facebook {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:focus .team-facebook {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:hover .team-linkedin {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-link:focus .team-linkedin {
-        fill: white;
+        fill: $background-color;
         transform: scale(1.1);
     }
     
     .team-instagram {
         width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: $icons-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .team-twitter {
         width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: $icons-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .team-facebook {
         width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: $icons-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .team-linkedin {
         width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: $icons-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }

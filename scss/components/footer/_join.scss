@@ -5,7 +5,7 @@
 }
 
 .join-title {
-    color: #FFF;
+    color: $background-color;
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -48,7 +48,7 @@ letter-spacing: 0.42px;
 .join-icon {
     width: 20px;
 height: 20px;
-fill: #FFFFFF;
+fill: $background-color;
 }
 
 .join-item:hover .join-link {
@@ -56,7 +56,7 @@ fill: #FFFFFF;
 }
 
 .join-link:focus {
-    fill: white;
+    fill: $background-color;
     background-color: $accent-color;
     outline: none;
 }

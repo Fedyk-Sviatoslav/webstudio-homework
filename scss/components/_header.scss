@@ -16,7 +16,7 @@
 }
 
 .header {
-    box-shadow:  0 5px 5px -5px gray;
+    box-shadow:  0 5px 5px -5px $text-color;
 }
 
 .header-nav {
@@ -138,7 +138,7 @@
  .header-smartphone {
     width: 10px;
     height: 16px;
-    fill: #757575;
+    fill: $text-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
@@ -149,7 +149,7 @@
 .header-post {
 width: 16px;
 height: 12px;
-fill: #757575;
+fill: $text-color;
 transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -169,7 +169,7 @@ font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
 letter-spacing: 0.02em;
-color: #757575;
+color: $text-color;
 display: flex;
 align-items: center;
 gap: 10px;
@@ -181,7 +181,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: $text-color;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -193,7 +193,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: $text-color;
     display: flex;
     align-items: center;
     gap: 10px;

@@ -9,7 +9,7 @@
     animation-duration: 1400ms;
     animation-timing-function: ease-out;
     font-weight: 900;
-    color: white;
+    color: $background-color;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -35,7 +35,7 @@
     animation-duration: 1400ms;
     font-weight: 700;
     background-color: $accent-color;
-    color: white;
+    color: $background-color;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
@@ -61,6 +61,6 @@
 
 .order-button:hover {
     transform: scale(1.1);
-    background-color: white;
+    background-color: $background-color;
     color: $accent-color;
 }

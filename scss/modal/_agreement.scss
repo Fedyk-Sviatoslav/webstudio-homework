@@ -4,13 +4,13 @@
    height: 16px;
    border-radius: 15%;
    border: none;
-   background-color: #fff;
+   background-color: $background-color;
    margin-top: 4px;
    margin-right: 8px;
 } 
 
 .agreement-text {
-    color: #757575;
+    color: $text-color;
 font-family: Roboto;
 font-size: 14px;
 font-weight: 400;

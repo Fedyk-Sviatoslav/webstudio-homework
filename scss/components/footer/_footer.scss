@@ -15,7 +15,7 @@ font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
-color: white;
+color: $background-color;
 
 }
 
@@ -25,7 +25,7 @@ font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
-background: #FFFFFF99;
+background: $text-color;
 
 }
 
@@ -35,7 +35,7 @@ font-weight: 400;
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-align: left;
-color: white;
+color: $background-color;
 display: block;
 margin-top: 20px;
 }
@@ -46,7 +46,7 @@ margin-top: 20px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #757575;
+    color: $text-color;
 }
 
 .footer-item {
@@ -67,7 +67,7 @@ margin-top: 20px;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    color: #ffffff;
+    color: $background-color;
     line-height: 1.38;
     letter-spacing: 0.03em;
 }
@@ -86,6 +86,6 @@ margin-top: 20px;
     right: 246px;
     width: 24px;
 height: 24px;
-fill: white;
+fill: $background-color;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
