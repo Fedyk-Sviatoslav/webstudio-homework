@@ -2,90 +2,81 @@
     position: relative;
  padding: 60px 0px 60px 0px;
     background-color:  #2F303A;
-}
 
-.footer-flex {
-    display: flex;
-    gap: 70px;
-}
-
-.footer-link {
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7;
-letter-spacing: 0.03em;
-text-align: left;
-color: $background-color;
-
-}
-
-.footer-link2 {
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7;
-letter-spacing: 0.03em;
-text-align: left;
-background: $text-color;
-
-}
-
-#footer-link {
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7;
-letter-spacing: 0.03em;
-text-align: left;
-color: $background-color;
-display: block;
-margin-top: 20px;
-}
-
-.footer-link {
+    &__flex {
+        display: flex;
+        gap: 70px;
+    }
+    
+    &__link {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-align: left;
-    color: $text-color;
-}
-
-.footer-item {
-    margin-top: 9px;
-}
-
-.footer-web {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    color: $accent-color;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-
-}
-
-.footer-studio {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
     color: $background-color;
-    line-height: 1.38;
+    
+    }
+    
+    &__link2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
     letter-spacing: 0.03em;
+    text-align: left;
+    background: $text-color;
+    
+    }
+    
+    &__adress {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $background-color;
+    display: block;
+    margin-top: 20px;
+    }
+    
+    &__link {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: $text-color;
+    }
+    
+    &__item {
+        margin-top: 9px;
+    }
+    
+    &__web {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        color: $accent-color;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+    
+    }
+    
+    &__studio {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        color: $background-color;
+        line-height: 1.38;
+        letter-spacing: 0.03em;
+    }
+    
+    &__subscribe {
+        display: flex;
+    }
+    
+    &__subscribe {
+        padding-top: 12px;  
+    }
 }
 
-.footer-subscribe {
-    display: flex;
-}
-
-.footer-subscribe {
-    padding-top: 12px;  
-}
-
-.footer-plane-icon {
-    position: absolute;
-    top: 123px;
-    right: 246px;
-    width: 24px;
-height: 24px;
-fill: $background-color;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}

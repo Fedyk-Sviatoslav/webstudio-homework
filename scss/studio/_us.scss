@@ -1,62 +1,63 @@
-.us-section {
+.us {
     padding-bottom: 94px;
+
+    &__header {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $title-color;
+        
+        }
+        
+        &__list {
+            display: flex;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        &__item {
+            position: relative;
+        }
+        
+        &__img {
+            width: 370px;
+            height: 294px;
+        }
+        
+        &__details {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        &__desktop, &__mobile, &__designer {
+            color: $background-color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.42px;
+        background-color: rgba(47, 48, 58, 0.80);
+        position: absolute;
+        text-transform: uppercase;
+        }
+        
+        &__desktop {
+            padding: 27px 107px 27px 107px;
+            top: 75%;
+        }
+        
+        &__mobile {
+            padding: 27px 111px 27px 114px;
+            top: 75%;
+        }
+        
+        &__designer {
+            padding: 27px 94px 27px 95px;
+            top: 75%;
+        }
 }
 
-.us-header {
-font-size: 36px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-text-align: center;
-color: $title-color;
-
-}
-
-.us-list {
-    display: flex;
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.us-item {
-    position: relative;
-}
-
-.us-img {
-    width: 370px;
-    height: 294px;
-}
-
-.us-details {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.us-desktop, .us-mobile, .us-designer {
-    color: $background-color;
-text-align: center;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 1.14;
-letter-spacing: 0.42px;
-background-color: rgba(47, 48, 58, 0.80);
-position: absolute;
-text-transform: uppercase;
-}
-
-.us-desktop {
-    padding: 27px 107px 27px 107px;
-    top: 75%;
-}
-
-.us-mobile {
-    padding: 27px 111px 27px 114px;
-    top: 75%;
-}
-
-.us-designer {
-    padding: 27px 94px 27px 95px;
-    top: 75%;
-}

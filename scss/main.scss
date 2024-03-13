@@ -1,4 +1,4 @@
-@import "./utils/vars";
+@import "./utils/vars.scss";
 @import "./basic/common/common";
 @import "./basic/common/reset";
 @import "./components/header";
@@ -9,7 +9,8 @@
 @import "./studio/clients";
 @import "./components/footer/footer";
 @import "./components/footer/join";
-@import "./components/footer/subscription";
+@import "./components/footer/subscribe";
 @import "./modal/function";
 @import "./modal/modal";
+@import "./modal/subscription";
 @import "./modal/agreement";

@@ -1,0 +1,24 @@
+.subscription-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.subscription-label:hover .modal-input {
+    border: 1px solid $accent-color;
+}
+
+.subscription-label:hover .modal-human {
+    fill: $accent-color;
+    transform: scale(1.1);
+}
+
+.subscription-label:hover .modal-phone {
+    fill: $accent-color;
+    transform: scale(1.1);
+}
+
+.subscription-label:hover .modal-email {
+    fill: $accent-color;
+    transform: scale(1.1);
+}

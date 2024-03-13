@@ -1,4 +1,7 @@
-.web {
+.header {
+    box-shadow:  0 5px 5px -5px $text-color;
+
+    &__black {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -7,7 +10,7 @@
     letter-spacing: 0.03em;
 }
 
-.studio {font-family: Raleway;
+&__blue {font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     color: $title-color;
@@ -15,20 +18,17 @@
     letter-spacing: 0.03em;
 }
 
-.header {
-    box-shadow:  0 5px 5px -5px $text-color;
-}
 
-.header-nav {
+&__nav {
     display: flex;
 }
 
- .header-header {
+ &__header {
     margin: 0px 93px 0px 0px; 
     padding-top: 20px;
 }
 
-.header-list {
+&__list {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -37,7 +37,7 @@
     overflow: hidden;
 }
 
-.header-studio, .header-portfolio, .header-contacts {
+&__studio, &__portfolio, &__contacts {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -49,12 +49,12 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .header-studio:hover, .header-portfolio:hover, .header-contacts:hover {
+    &__studio:hover, &__portfolio:hover, &__contacts:hover {
         color: $accent-color;
     }
 
 
- .header-studio-decoration {
+ &__studio::after {
     position: absolute;
     top: 76px;
     right: 234px;
@@ -65,13 +65,13 @@
     border-radius: 2px;
     transform: scale(0, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} 
+}
 
-.header-studio-overlay:hover  .header-studio-decoration {
+&__item:nth-child(1):hover  &__studio::after {
     transform: scale(1);
 }
 
-.header-portfolio-decoration {
+&__portfolio::after {
     position: absolute;
     top: 76px;
     right: 112px;
@@ -82,13 +82,13 @@
     border-radius: 2px;
     transform: scale(0, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} 
+}
 
-.header-portfolio-overlay:hover  .header-portfolio-decoration {
+&__item:nth-child(2):hover  &__portfolio::after  {
     transform: scale(1);
 }
 
-.header-contacts-decoration {
+&__contacts::after {
     position: absolute;
     top: 76px;
     right: -1px;
@@ -101,70 +101,70 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
-.header-contacts-overlay:hover  .header-contacts-decoration {
+&__item:nth-child(3):hover  &__contacts::after {
     transform: scale(1);
 }
 
-.header-link:hover .header-contact {
+&__link:hover &__contact {
     color: $accent-color;
 }
 
-.header-link:focus .header-contact {
+&__link:focus &__contact {
     color: $accent-color;
 }
 
-.header-link:focus {
+&__link:focus {
     outline: none;
 }
 
-.header-email:hover .header-post {
+&__email:hover &__post {
     fill: $accent-color;
 }
 
-.header-email:focus .header-post {
-    fill: $accent-color;
-    outline: none;
-}
-
-.header-number:hover .header-smartphone {
-    fill: $accent-color;
-}
-
-.header-number:focus .header-smartphone {
+&__email:focus &__post {
     fill: $accent-color;
     outline: none;
 }
 
- .header-smartphone {
+&__number:hover &__smartphone {
+    fill: $accent-color;
+}
+
+&__number:focus &__smartphone {
+    fill: $accent-color;
+    outline: none;
+}
+
+ &__smartphone {
     width: 10px;
     height: 16px;
     fill: $text-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
-.header-smartphone:hover {
+&__smartphone:hover {
     fill: $accent-color;
 } 
 
-.header-post {
+&__post {
 width: 16px;
 height: 12px;
 fill: $text-color;
 transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-post:hover {
+&__post:hover {
     fill: $accent-color;
 } 
 
-.header-adress {
+&__adress {
     display: flex;
     margin-left: auto;
     gap: 50px;
     align-items: center;
 }  
 
-.header-link {
+&__link {
 font-size: 14px;
 font-weight: 500;
 line-height: 1.1;
@@ -176,7 +176,7 @@ gap: 10px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-email {
+&__email {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -188,7 +188,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-number {
+&__number {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
@@ -202,18 +202,20 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.header-email:hover {
+&__email:hover {
     color: $accent-color;
 }
 
-.header-email:focus {
+&__email:focus {
     color: $accent-color;
 }
 
-.header-number:hover {
+&__number:hover {
     color: $accent-color;
 }
 
-.header-number:focus {
+&__number:focus {
     color: $accent-color;
 }
+}
+

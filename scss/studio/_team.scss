@@ -1,202 +1,207 @@
-.team-h3 {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $title-color;
-    margin-bottom: 50px;
-    opacity: 0;
-    transition: opacity 300ms ease-out;
-    }
-    
-    .team-section:hover .team-h3 {
-        animation-name: shake;
-        animation-duration: 2000ms;
-        animation-timing-function: ease-in-out;
-        opacity: 1;
-    }
-    
-    @keyframes shake {
-        0% {
-            transform: translateX(10%);
-            opacity: 0;
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $team-background;
+
+    &__subtitle {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $title-color;
+        margin-bottom: 50px;
+        opacity: 0;
+        transition: opacity 300ms ease-out;
         }
-    
-        50% {
-            transform: translateX(-1%);
-            opacity: 0.5;
-        }
-    
-        100% {
-            transform: translateX(0);
+        
+        &:hover &__subtitle {
+            animation-name: shake;
+            animation-duration: 2000ms;
+            animation-timing-function: ease-in-out;
             opacity: 1;
         }
-    }
+        
+        @keyframes shake {
+            0% {
+                transform: translateX(10%);
+                opacity: 0;
+            }
+        
+            50% {
+                transform: translateX(-1%);
+                opacity: 0.5;
+            }
+        
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+      
+        
+        &__h4 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $title-color;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        }
+        
+        &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $text-color;
+        
+        }
+        
+        &__img {
+            width: 270px;
+            height: 260px;
+        
+        }
+        
+        &__list {
+            display: flex;
+            gap: 30px;
+        }
+        
+        &__item {
+            padding-bottom: 30px;
+            background-color: $background-color;
+            border-radius:  2%;
+            box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
     
-    .team-section {
-        padding-top: 94px;
-        padding-bottom: 94px;
-        background-color: $team-background;
-    }
-    
-    .team-h4 {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $title-color;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    }
-    
-    .team-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $text-color;
-    
-    }
-    
-    .team-img {
-        width: 270px;
-        height: 260px;
-    
-    }
-    
-    .team-list {
-        display: flex;
-        gap: 30px;
-    }
-    
-    .team-item {
-        padding-bottom: 30px;
-        background-color: $background-color;
-        border-radius:  2%;
-        box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-item:hover {
-        transform: scale(1.1);
-    }
-    
-     .team-item:nth-child(1) {
-        opacity: 0;
-        transition: opacity 300ms ease-out, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-item:nth-child(2) {
-        opacity: 0;
-        transition: opacity 300ms ease-out 200ms, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-item:nth-child(3) {
-        opacity: 0;
-        transition: opacity 300ms ease-out 400ms, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-item:nth-child(4) {
-        opacity: 0;
-        transition: opacity 300ms ease-out 500ms, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-section:hover .team-item {
-        opacity: 1;
-     } 
-    
-    .team-icons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 16px;
-    }
-    
-    .team-link {
-        display: flex;
-        align-items: center;
-        padding: 12px;
-        border-radius: 50px;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-link:hover {
-        transform: scale(1.1);
-        background-color: $accent-color;
-    }
-    
-    .team-link:focus {
-        background-color: $accent-color;
-        outline: none;
-    }
-    
-    .team-link:hover .team-instagram {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:focus .team-instagram {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:hover .team-twitter {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:focus .team-twitter {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:hover .team-facebook {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:focus .team-facebook {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:hover .team-linkedin {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-link:focus .team-linkedin {
-        fill: $background-color;
-        transform: scale(1.1);
-    }
-    
-    .team-instagram {
-        width: 20px;
-    height: 20px;
-    fill: $icons-color;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-twitter {
-        width: 20px;
-    height: 20px;
-    fill: $icons-color;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-facebook {
-        width: 20px;
-    height: 20px;
-    fill: $icons-color;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .team-linkedin {
-        width: 20px;
-    height: 20px;
-    fill: $icons-color;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+         &__item:nth-child(1) {
+            opacity: 0;
+            transition: opacity 300ms ease-out, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &__item:nth-child(2) {
+            opacity: 0;
+            transition: opacity 300ms ease-out 200ms, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &__item:nth-child(3) {
+            opacity: 0;
+            transition: opacity 300ms ease-out 400ms, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &__item:nth-child(4) {
+            opacity: 0;
+            transition: opacity 300ms ease-out 500ms, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &:hover &__item {
+            opacity: 1;
+         } 
+        
+        &__icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 16px;
+        }
+        
+        &__link {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            border-radius: 50px;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover {
+                transform: scale(1.1);
+                background-color: $accent-color;
+            }
+            
+            &:focus {
+                background-color: $accent-color;
+                outline: none;
+            }
+        }
+        
+        
+        
+        &__link:hover &__instagram {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:focus &__instagram {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:hover &__twitter {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:focus &__twitter {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:hover &__facebook {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:focus &__facebook {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:hover &__linkedin {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__link:focus &__linkedin {
+            fill: $background-color;
+            transform: scale(1.1);
+        }
+        
+        &__instagram {
+            width: 20px;
+        height: 20px;
+        fill: $icons-color;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &__twitter {
+            width: 20px;
+        height: 20px;
+        fill: $icons-color;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &__facebook {
+            width: 20px;
+        height: 20px;
+        fill: $icons-color;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &__linkedin {
+            width: 20px;
+        height: 20px;
+        fill: $icons-color;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+}
+

@@ -23,19 +23,19 @@
     0% {
         opacity: 0;
         transform: translateY(-100%);
-        background-color: $text-color;
+        background-color: $team-background;
         color: $accent-color;
     }
 
     25% {
-        background-color: $text-color;
+        background-color: $team-background;
         color: $accent-color;
     }
 
     50% {
         opacity: 1;
         transform: translateY(0);
-        background-color: $text-color;
+        background-color: $team-background;
         color: $accent-color;
     }
 
