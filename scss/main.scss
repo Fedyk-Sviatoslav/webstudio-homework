@@ -1,6 +1,7 @@
+@import "./basic/common/reset";
 @import "./utils/vars.scss";
 @import "./basic/common/common";
-@import "./basic/common/reset";
+@import "./utils/placeholder";
 @import "./components/header";
 @import "./studio/order";
 @import "./studio/decision";

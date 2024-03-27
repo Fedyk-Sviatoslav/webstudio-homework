@@ -9,8 +9,7 @@
     }
     
     &__header {
-        font-size: 14px;
-        font-weight: 700;
+        @extend %description-titles;
         line-height: 1.87;
         letter-spacing: 0.03em;
         text-align: left;
@@ -40,8 +39,7 @@
     }
     
     &__list {
-        display: flex;
-        justify-content: center;
+        @extend %row-flex;
     }
     
     &__list {
@@ -52,18 +50,8 @@
     
     
     &__anthen::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        background-color: $team-background;
-        display: block;
-        background-repeat: repeat-x;
-        margin-bottom: 30px;
-        background-image: url(../images/antenna.png);
-        background-position: center ;
-        background-repeat: no-repeat;
+        @extend %decision-cards;
         transform: translateX(-100%);
-        opacity: 0;
         transition: transform 500ms ease-out , opacity 500ms linear;
     }
     
@@ -74,18 +62,8 @@
     
     
     &__clock::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        background-color: $team-background;
-        display: block;
-        background-repeat: repeat-x;
-        margin-bottom: 30px;
-        background-image: url(../images/clock.png);
-        background-position: center ;
-        background-repeat: no-repeat;
+        @extend %decision-cards;
         transform: translateX(-200%);
-        opacity: 0;
         transition: transform 600ms ease-out , opacity 600ms linear;
         z-index: -1;
     }
@@ -96,18 +74,8 @@
      }
     
     &__rating::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        background-color: $team-background;
-        display: block;
-        background-repeat: repeat-x;
-        margin-bottom: 30px;
-        background-image: url(../images/diagram.png);
-        background-position: center ;
-        background-repeat: no-repeat;
+        @extend %decision-cards;
         transform: translateX(-300%);
-        opacity: 0;
         transition: transform 700ms ease-out , opacity 700ms linear;
         z-index: -2;
     }
@@ -118,18 +86,8 @@
      }
     
     &__astronaut::before {
-        content: "";
-        width: 270px;
-        height: 120px;
-        background-color: $team-background;
-        display: block;
-        background-repeat: repeat-x;
-        margin-bottom: 30px;
-        background-image: url(../images/astronaut.png);
-        background-position: center ;
-        background-repeat: no-repeat;
+        @extend %decision-cards;
         transform: translateX(-400%);
-        opacity: 0;
         transition: transform 800ms ease-out , opacity 800ms linear;
         z-index: -3;
     }

@@ -64,9 +64,8 @@
   }
 
   &__list {
-    display: flex;
+    @extend %row-flex;
     flex-direction: row;
-    justify-content: center;
     gap: 8px;
   }
 }

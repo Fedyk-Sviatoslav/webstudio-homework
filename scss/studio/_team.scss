@@ -4,12 +4,7 @@
     background-color: $team-background;
 
     &__subtitle {
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-align: center;
-        color: $title-color;
+        @extend %description-titles;
         margin-bottom: 50px;
         opacity: 0;
         transition: opacity 300ms ease-out;
@@ -110,15 +105,13 @@
          } 
         
         &__icons {
-            display: flex;
-            justify-content: center;
+            @extend %row-flex;
             gap: 10px;
             margin-top: 16px;
         }
         
         &__link {
-            display: flex;
-            align-items: center;
+            @extend %column-flex;
             padding: 12px;
             border-radius: 50px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -177,30 +170,22 @@
         }
         
         &__instagram {
-            width: 20px;
-        height: 20px;
-        fill: $icons-color;
+            @extend %socials;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         &__twitter {
-            width: 20px;
-        height: 20px;
-        fill: $icons-color;
+           @extend %socials;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         &__facebook {
-            width: 20px;
-        height: 20px;
-        fill: $icons-color;
+           @extend %socials;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         &__linkedin {
-            width: 20px;
-        height: 20px;
-        fill: $icons-color;
+           @extend %socials;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 }

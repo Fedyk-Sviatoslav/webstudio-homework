@@ -8,7 +8,6 @@
         letter-spacing: 0.03em;
         text-align: center;
         color: $title-color;
-        
         }
         
         &__list {
@@ -27,8 +26,7 @@
         }
         
         &__details {
-            display: flex;
-            justify-content: center;
+            @extend %row-flex;
             gap: 30px;
         }
         
@@ -36,8 +34,7 @@
             color: $background-color;
         text-align: center;
         font-family: Roboto;
-        font-size: 14px;
-        font-weight: 700;
+        @extend %description-titles;
         line-height: 1.14;
         letter-spacing: 0.42px;
         background-color: rgba(47, 48, 58, 0.80);
