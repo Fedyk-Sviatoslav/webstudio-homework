@@ -64,7 +64,6 @@ body {
   display: block;
   background-repeat: repeat-x;
   margin-bottom: 30px;
-  background-image: url(../images/antenna.png);
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
@@ -76,13 +75,18 @@ body {
   fill: #AFB1B8;
 }
 
-.subscribe__title, .join__title, .clients__title, .team__subtitle, .us__desktop, .us__mobile, .us__designer, .decision__header {
+.clients__title, .team__subtitle {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
   color: #000;
+}
+
+.subscribe__title, .join__title, .us__desktop, .us__mobile, .us__designer, .decision__header {
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .header {
@@ -350,6 +354,7 @@ body {
   align-items: baseline;
 }
 .decision__anthen::before {
+  background-image: url(../images/antenna.png);
   transform: translateX(-100%);
   transition: transform 500ms ease-out, opacity 500ms linear;
 }
@@ -358,6 +363,7 @@ body {
   opacity: 1;
 }
 .decision__clock::before {
+  background-image: url(../images/clock.png);
   transform: translateX(-200%);
   transition: transform 600ms ease-out, opacity 600ms linear;
   z-index: -1;
@@ -367,6 +373,7 @@ body {
   opacity: 1;
 }
 .decision__rating::before {
+  background-image: url(../images/diagram.png);
   transform: translateX(-300%);
   transition: transform 700ms ease-out, opacity 700ms linear;
   z-index: -2;
@@ -376,6 +383,7 @@ body {
   opacity: 1;
 }
 .decision__astronaut::before {
+  background-image: url(../images/astronaut.png);
   transform: translateX(-400%);
   transition: transform 800ms ease-out, opacity 800ms linear;
   z-index: -3;

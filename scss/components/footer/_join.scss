@@ -6,7 +6,7 @@
     &__title {
         color: $background-color;
     font-family: Roboto;
-    @extend %description-titles;
+    @extend %subtitles;
     line-height: 1.42;
     letter-spacing: 0.42px;
     }

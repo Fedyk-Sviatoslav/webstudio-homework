@@ -34,7 +34,7 @@
             color: $background-color;
         text-align: center;
         font-family: Roboto;
-        @extend %description-titles;
+        @extend %subtitles;
         line-height: 1.14;
         letter-spacing: 0.42px;
         background-color: rgba(47, 48, 58, 0.80);
